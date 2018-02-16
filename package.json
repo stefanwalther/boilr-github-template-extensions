@@ -1,0 +1,15 @@
+{
+  "name": "boilr-github-template-extensions",
+  "version": "1.0.0",
+  "author": "Stefan Walther <swr.nixda@gmail.com> (http://qliksite.io)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanwalther/boilr-github-template-extensions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanwalther/boilr-github-template-extensions/issues"
+  },
+  "homepage": "https://github.com/stefanwalther/boilr-github-template-extensions#readme",
+  "description": "Boilr templates for creating GithHub templates for Qlik Sense visualization extensions."
+}
