@@ -5,7 +5,7 @@ help:														## Show this help.
 	@echo ''
 .PHONY: help
 
-gen-readme: reg gen-output					## Generate README.md (using docker-verb)
+gen-readme: gen-output					## Generate README.md (using docker-verb)
 	docker run --rm -v ${PWD}:/opt/verb stefanwalther/verb
 .PHONY: gen-readme
 
@@ -18,7 +18,6 @@ gen-output:         						## Generate the sample output
 	rm -rf ./sample;
 .PHONY: gen-output
 
-# Todo: Make this dynamic
 reg:														## Register the current template locally
 	boilr template save $(PWD) github-templates-extensions -f
 .PHONY: reg
